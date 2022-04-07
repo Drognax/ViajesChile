@@ -23,7 +23,7 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Logotipo" width="4%"> Viajes
+                <a class="navbar-brand text-white" href="#"><img src="assets/img/viajes.svg" alt="Logotipo" width="4%"> Viajes
                     Chile</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -31,18 +31,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio</a>
+                            <a class="nav-link text-white" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link text-white" href="#quienesSomos">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link text-white" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link text-white" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -77,37 +77,32 @@
     </div>
 
     <!-- Quienes somos + tooltips -->
-    <section>
-        <span>¿QUIENES SOMOS?</span>
+    <section id="quienesSomos">
+        <p class="titulo">¿QUIENES SOMOS?</p>
         <hr>
         <div class="row">
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui
-                            deserunt illo, dolorem ad illum.</p>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-3">
+                <div style="width: 18rem;">
+                    <div class="card-bg d-grid gap-2">
+                        <button type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Viajes"><i class="fa-solid fa-plane text-white"></i></button>
+                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente tempore laborum iste adipisci molestiae, neque minus deserunt soluta nulla veritatis earum voluptatum fuga quam facere impedit quod accusantium necessitatibus.</p>                        
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui
-                            deserunt illo, dolorem ad illum.</p>
+            <div class="col-lg-3">
+                <div style="width: 18rem;">
+                    <div class="card-bg d-grid gap-2">
+                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente tempore laborum iste adipisci molestiae, neque minus deserunt soluta nulla veritatis earum voluptatum fuga quam facere impedit quod accusantium necessitatibus.</p>                        
+                        <button type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Paisajes"><i class="fa-solid fa-mountain text-white"></i></button>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui
-                            deserunt illo, dolorem ad illum.</p>
+            <div class="col-lg-3">
+                <div style="width: 18rem;">
+                    <div class="card-bg d-grid gap-2">
+                        <button type="button" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Rutas"><i class="fa-solid fa-route text-white"></i></button>
+                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente tempore laborum iste adipisci molestiae, neque minus deserunt soluta nulla veritatis earum voluptatum fuga quam facere impedit quod accusantium necessitatibus.</p>                        
                     </div>
                 </div>
             </div>
@@ -117,8 +112,8 @@
 
 
     <!-- Destacados + Boostrap Cards -->
-    <section>
-        <span>DESTACADOS</span>
+    <section id="destacados">
+        <p class="titulo">DESTACADOS</p>
         <hr>
         <div class="row">
             <div class="col-lg-3">
@@ -170,9 +165,9 @@
 
     </section>
 
-    <!-- Formulario -->
-    <section>
-        <span>CONTACTO</span>
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+        <p class="titulo">CONTACTO</p>
         <hr>
         <form>
             <div class="mb-3">
@@ -188,18 +183,24 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-info">Enviar</button>
         </form>
     </section>
 
 
 
     <footer>
-        <span>VIAJES CHILE</span>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-twitter-square"></i>
-        <i class="fa-brands fa-facebook-square"></i>
+        <div class="row">
+            <div class="col-lg-5">
+                <span>VIAJES CHILE</span>
+            </div>
+            <div class="col-lg-5">
+                <i class="fa-brands fa-github" id="logos"></i>
+                <i class="fa-brands fa-linkedin" id="logos"></i>
+                <i class="fa-brands fa-twitter-square" id="logos"></i>
+                <i class="fa-brands fa-facebook-square" id="logos"></i>
+            </div>
+        </div>    
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

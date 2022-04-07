@@ -1,16 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     color: white;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Cabin', sans-serif;
 }
 
 .header{
     color: white;
 }
 
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .card-body{
     background-color:aqua;
 }
 
+#quienesSomos{
+    margin: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.card-bg{
+    background-color: black;
+}
+
+#destacados{
+    margin: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#contacto{
+    margin: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 footer{
     background-color:aqua;
+    height: 80px;
+    font-weight: blod;
+    font-size: 20px;
+    text-align: end;  
+    padding-top: 1em;
+    
+}
+
+#logos{
+    margin-right: 0.5em;
 }
