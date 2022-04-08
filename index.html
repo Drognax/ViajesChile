@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="inicio">
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Inicio</a>
+                            <a class="nav-link text-white" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#quienesSomos">Quienes Somos</a>
@@ -76,23 +76,23 @@
     </div>
 
     <!-- Quienes somos + tooltips -->
-    <section id="quienesSomos">
+    <section id="quienesSomos" class="container">
         <p class="titulo">¿QUIENES SOMOS?</p>
         <hr>
-        <div class="row">
+        <div class="row g-3">
             <div class="col-lg-2"></div>
             <div class="col-lg-3">
                 <div style="width: 18rem;">
                     <div class="card-bg d-grid gap-2">
                         <button type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Viajes"><i class="fa-solid fa-plane text-white"></i></button>
-                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente tempore laborum iste adipisci molestiae, neque minus deserunt soluta nulla veritatis earum voluptatum fuga quam facere impedit quod accusantium necessitatibus.</p>                        
+                        <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro soluta sunt ratione molestias mollitia fugiat cumque excepturi accusamus, aut, hic quis modi dolorem sint omnis voluptatem blanditiis quae consectetur pariatur ea nulla deleniti! Sit fugiat voluptate at alias, soluta laudantium inventore rem cumque, quo dignissimos est illum dolore distinctio maiores velit neque dolor eos similique dolores quidem reiciendis commodi eligendi deserunt! Repudiandae, amet reiciendis voluptatum velit accusamus possimus et illum iusto, aspernatur omnis voluptatibus ullam! Eveniet debitis vero quod repellat. Corporis, earum quo? Sed nulla iure enim delectus perspiciatis beatae rerum mollitia. Ex culpa et quos! Officia, nemo tempora?</p>                        
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div style="width: 18rem;">
                     <div class="card-bg d-grid gap-2">
-                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente tempore laborum iste adipisci molestiae, neque minus deserunt soluta nulla veritatis earum voluptatum fuga quam facere impedit quod accusantium necessitatibus.</p>                        
+                        <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro soluta sunt ratione molestias mollitia fugiat cumque excepturi accusamus, aut, hic quis modi dolorem sint omnis voluptatem blanditiis quae consectetur pariatur ea nulla deleniti! Sit fugiat voluptate at alias, soluta laudantium inventore rem cumque, quo dignissimos est illum dolore distinctio maiores velit neque dolor eos similique dolores quidem reiciendis commodi eligendi deserunt! Repudiandae, amet reiciendis voluptatum velit accusamus possimus et illum iusto, aspernatur omnis voluptatibus ullam! Eveniet debitis vero quod repellat. Corporis, earum quo? Sed nulla iure enim delectus perspiciatis beatae rerum mollitia. Ex culpa et quos! Officia, nemo tempora?</p>                        
                         <button type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Paisajes"><i class="fa-solid fa-mountain text-white"></i></button>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                 <div style="width: 18rem;">
                     <div class="card-bg d-grid gap-2">
                         <button type="button" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Rutas"><i class="fa-solid fa-route text-white"></i></button>
-                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente tempore laborum iste adipisci molestiae, neque minus deserunt soluta nulla veritatis earum voluptatum fuga quam facere impedit quod accusantium necessitatibus.</p>                        
+                        <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro soluta sunt ratione molestias mollitia fugiat cumque excepturi accusamus, aut, hic quis modi dolorem sint omnis voluptatem blanditiis quae consectetur pariatur ea nulla deleniti! Sit fugiat voluptate at alias, soluta laudantium inventore rem cumque, quo dignissimos est illum dolore distinctio maiores velit neque dolor eos similique dolores quidem reiciendis commodi eligendi deserunt! Repudiandae, amet reiciendis voluptatum velit accusamus possimus et illum iusto, aspernatur omnis voluptatibus ullam! Eveniet debitis vero quod repellat. Corporis, earum quo? Sed nulla iure enim delectus perspiciatis beatae rerum mollitia. Ex culpa et quos! Officia, nemo tempora?</p>                        
                     </div>
                 </div>
             </div>
@@ -109,14 +109,14 @@
     </section>
 
     <!-- Destacados + Boostrap Cards -->
-    <section id="destacados">
+    <section id="destacados" class="container">
         <p class="titulo">DESTACADOS</p>
         <hr>
-        <div class="row">
+        <div class="row g-3">
             <div class="col-lg-3">
                 <!-- Card 1 -->
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="..." >
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui
@@ -127,7 +127,7 @@
             <div class="col-lg-3">
                 <!-- Card 2 -->
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="190px">
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui
@@ -161,7 +161,7 @@
     </section>
 
     <!-- Formulario de Contacto -->
-    <section id="contacto">
+    <section id="contacto" class="container">
         <p class="titulo">CONTACTO</p>
         <hr>
         <form>
@@ -193,9 +193,10 @@
                 <i class="fa-brands fa-twitter-square" id="logos"></i>
                 <i class="fa-brands fa-facebook-square" id="logos"></i>
             </div>
-        </div>    
+        </div> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>   
     </footer>
-
+    <!-- Script Bootstrap y Jquery -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
